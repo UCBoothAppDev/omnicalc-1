@@ -16,11 +16,12 @@ GIT
 
 GIT
   remote: https://github.com/firstdraft/web_git.git
-  revision: 4dbadc999d057f2bf0f9f74aec4deed79cf07350
+  revision: a2be64e762eb0d79a204ab8cf941e99c1b2a2a8d
   branch: spring2020
   specs:
     web_git (0.1.0)
       actionview
+      ansispan
       diffy
       git
       sinatra
@@ -90,6 +91,7 @@ GEM
     annotate (3.1.1)
       activerecord (>= 3.2, < 7.0)
       rake (>= 10.4, < 14.0)
+    ansispan (0.0.1)
     bcrypt (3.1.16)
     bcrypt (3.1.16-java)
     better_errors (2.9.1)
@@ -164,7 +166,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.10.0)
+    loofah (2.11.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -172,20 +174,20 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.3)
+    mini_portile2 (2.6.1)
     minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.7)
     nio4r (2.5.7-java)
-    nokogiri (1.11.7)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.12.0)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    nokogiri (1.11.7-java)
+    nokogiri (1.12.0-java)
       racc (~> 1.4)
-    nokogiri (1.11.7-x64-mingw32)
+    nokogiri (1.12.0-x64-mingw32)
       racc (~> 1.4)
-    nokogiri (1.11.7-x86-mingw32)
+    nokogiri (1.12.0-x86-mingw32)
       racc (~> 1.4)
     oj (3.12.0)
     orm_adapter (0.5.0)
@@ -286,7 +288,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     ruby_dep (1.5.0)
     sassc (2.4.0)
       ffi (~> 1.9)
